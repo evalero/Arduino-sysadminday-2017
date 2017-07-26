@@ -1,7 +1,7 @@
 #include "pitches.h"
 long tiempo;
-int disparador = 7;   // trigger
-int entrada = 8;      // echo
+int disparador = 3;   // trigger
+int entrada = 4;      // echo
 float distancia;
 int altavoz = 2;
 
@@ -35,24 +35,17 @@ void loop()
   // y lo mostramos por el puerto serie una vez por segundo
   Serial.println(distancia);
   if (distancia > 1000 || distancia < 3){
-    Serial.println(distancia);
     tone(altavoz,NOTE_B5,1000);
     delay(1000);
   }
     else if (distancia <= 300.0 and distancia > 5){
-      Serial.println(distancia);
       tone (altavoz, NOTE_C5, 20);
       delay (2000);
     }
     else if (distancia <= 5 and distancia > 3){
-      Serial.println(distancia);
       tone (altavoz, NOTE_D5, 100);
       delay(1000);
     }
-    else {
-     Serial.println(distancia);
-     noTone(altavoz);
-  }
      
   
   

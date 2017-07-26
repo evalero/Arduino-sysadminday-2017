@@ -21,7 +21,7 @@ void loop() {
   // put your main code here, to run repeatedly:
 
   digitalWrite (random(outMin,outMax+1),random(0,2));
-  delay(random(5000, 20000));
+  delay(random(100, 500));
 
 
 }
