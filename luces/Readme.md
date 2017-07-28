@@ -5,4 +5,5 @@ Este proyecto nace como necesidad para dar soporte a una maqueta de Lego de Goth
 En este encontrarás el sketch que hace el manejo de las luces de manera inteligente
 
 ## Diagrama de conexiones
-![Diagrama de conexiones de sensor de luces] (https://github.com/evalero/Arduino-sysadminday-2017/blob/master/luces/Gotham-dino.png)
+![Diagrama de conexiones de sensor de luces]
+ (https://github.com/evalero/Arduino-sysadminday-2017/blob/master/luces/Gotham-dino.png)
